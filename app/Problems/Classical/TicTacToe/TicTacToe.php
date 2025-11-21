@@ -12,6 +12,6 @@ $casesCount = $prompt->casesCount();
 $cases = $prompt->cases($casesCount);
 
 foreach($cases as $field) {
-    echo $validator->isValid($field) ? "yes" : "no";
+    echo $validator->isValid($field) ? 'yes' : 'no';
     echo "\n";
 }
