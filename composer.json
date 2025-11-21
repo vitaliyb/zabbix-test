@@ -2,6 +2,9 @@
   "name": "vitaliy/zabbix-test",
   "description": "Test assignment for zabbix",
   "type": "project",
+  "scripts": {
+    "test": "vendor/bin/phpunit tests"
+  },
   "require": {
     "php": "^8.2"
   },
